@@ -1,0 +1,12 @@
+twig:
+    paths: ['%kernel.project_dir%/templates']
+    debug: '%kernel.debug%'
+    strict_variables: '%kernel.debug%'
+    globals:
+        compagny: '%compagny%'
+        facebook: '%facebook%'
+        google: '%google%'
+        twitter: '%twitter%'
+        linkedin: '%linkedin%'
+        address: '%address%'
+        phonenumber: '%phonenumber%'
