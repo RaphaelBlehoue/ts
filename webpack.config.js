@@ -12,6 +12,7 @@ Encore
     .addEntry('js/layout.bundle', './assets/src/js/apps/layout/base/layout.js')
     .addEntry('js/dashboard.bundle', './assets/app/js/dashboard.js')
     .addEntry('js/login.bundle', './assets/snippets/pages/user/login.js')
+    .addEntry('js/jquery.validate.min', './assets/jquery.validate.min.js')
     //.addEntry('js/vendors.bundle', './assets/vendors/base/vendors.bundle.js')
     //.addEntry('js/dashboard', './assets/js/app/dashboard.js')
     //.enableSassLoader()
