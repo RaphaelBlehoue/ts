@@ -14,7 +14,12 @@ framework:
     #fragments: true
     php_errors:
         log: true
-    assets: ~
+    assets:
+        packages:
+            dash:
+                json_manifest_path: '%kernel.project_dir%/public/build/dash/manifest.json'
+            dash2:
+                json_manifest_path: '%kernel.project_dir%/public/build/dash2/manifest.json'
     cache:
         # Put the unique name of your app here: the prefix seed
         # is used to compute stable namespaces for cache keys.
